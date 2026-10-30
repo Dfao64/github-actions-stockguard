@@ -1,0 +1,23 @@
+Fuente: https://github.com/Dfao64/github-actions-stockguard/actions/runs/41070391534
+Registro consultado mediante la API autenticada de GitHub.
+
+2026-10-30T14:16:31.9861259Z ============================= test session starts ==============================
+2026-10-30T14:16:31.9862132Z platform linux -- Python 3.12.15, pytest-8.3.5, pluggy-1.7.0 -- /opt/hostedtoolcache/Python/3.12.15/x64/bin/python
+2026-10-30T14:16:31.9862772Z cachedir: .pytest_cache
+2026-10-30T14:16:31.9863250Z rootdir: /home/runner/work/github-actions-stockguard/github-actions-stockguard
+2026-10-30T14:16:31.9863762Z configfile: pytest.ini
+2026-10-30T14:16:31.9864044Z testpaths: tests
+2026-10-30T14:16:31.9923625Z collecting ... collected 5 items
+2026-10-30T14:16:31.9923881Z 
+2026-10-30T14:16:31.9930378Z tests/test_inventario.py::test_stock_agotado PASSED                      [ 20%]
+2026-10-30T14:16:31.9936907Z tests/test_inventario.py::test_stock_critico PASSED                      [ 40%]
+2026-10-30T14:16:31.9944455Z tests/test_inventario.py::test_stock_bajo PASSED                         [ 60%]
+2026-10-30T14:16:31.9951284Z tests/test_inventario.py::test_stock_normal PASSED                       [ 80%]
+2026-10-30T14:16:31.9972207Z tests/test_inventario.py::test_stock_invalido PASSED                     [100%]
+2026-10-30T14:16:31.9972604Z 
+2026-10-30T14:16:31.9972796Z ============================== 5 passed in 0.01s ===============================
+2026-10-30T14:16:32.1266068Z (node:2142) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-10-30T14:16:32.1266997Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-10-30T14:16:32.2308759Z Temporarily overriding HOME='/home/runner/work/_temp/748c55cb-500c-42df-a26f-a3ff41e20638' before making global git config changes
+2026-10-30T14:16:32.2309878Z Adding repository directory to the temporary git global config as a safe directory
+2026-10-30T14:16:32.3985793Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/setup-python@v5. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

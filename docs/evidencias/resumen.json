@@ -1,0 +1,400 @@
+{
+  "runs": [
+    {
+      "id": 41071129190,
+      "event": "workflow_dispatch",
+      "number": 6,
+      "sha": "e6ecacd958bf5fd9306156df633ba326c0e39fdb",
+      "conclusion": "success",
+      "url": "https://github.com/Dfao64/github-actions-stockguard/actions/runs/41071129190",
+      "created_at": "2026-10-30T14:21:42Z"
+    },
+    {
+      "id": 41071014691,
+      "event": "push",
+      "number": 5,
+      "sha": "e6ecacd958bf5fd9306156df633ba326c0e39fdb",
+      "conclusion": "success",
+      "url": "https://github.com/Dfao64/github-actions-stockguard/actions/runs/41071014691",
+      "created_at": "2026-10-30T14:20:28Z"
+    },
+    {
+      "id": 41070732898,
+      "event": "pull_request",
+      "number": 4,
+      "sha": "eac808b96a700332b78f92bc74104e73b76e1af3",
+      "conclusion": "success",
+      "url": "https://github.com/Dfao64/github-actions-stockguard/actions/runs/41070732898",
+      "created_at": "2026-10-30T14:18:36Z"
+    },
+    {
+      "id": 41070618905,
+      "event": "push",
+      "number": 3,
+      "sha": "def5c53c0f6d8bc511880e52f65c6bb85aecf791",
+      "conclusion": "success",
+      "url": "https://github.com/Dfao64/github-actions-stockguard/actions/runs/41070618905",
+      "created_at": "2026-10-30T14:17:50Z"
+    },
+    {
+      "id": 41070503334,
+      "event": "push",
+      "number": 2,
+      "sha": "8b587277a32cc15c40dcfecea37883bd706a2413",
+      "conclusion": "failure",
+      "url": "https://github.com/Dfao64/github-actions-stockguard/actions/runs/41070503334",
+      "created_at": "2026-10-30T14:17:03Z"
+    },
+    {
+      "id": 41070391534,
+      "event": "push",
+      "number": 1,
+      "sha": "0669668585821125857c7f87cb5b0317de3c6a3c",
+      "conclusion": "success",
+      "url": "https://github.com/Dfao64/github-actions-stockguard/actions/runs/41070391534",
+      "created_at": "2026-10-30T14:16:18Z"
+    }
+  ],
+  "jobs": {
+    "1": {
+      "jobs": [
+        {
+          "id": 124112616670,
+          "name": "validar-python",
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 41070391534,
+          "logs_url": null,
+          "steps": [
+            {
+              "name": "Set up job",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 1
+            },
+            {
+              "name": "Descargar repositorio",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 2
+            },
+            {
+              "name": "Configurar Python",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 3
+            },
+            {
+              "name": "Instalar dependencias",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 4
+            },
+            {
+              "name": "Validar sintaxis",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 5
+            },
+            {
+              "name": "Ejecutar pruebas",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 6
+            },
+            {
+              "name": "Post Configurar Python",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 11
+            },
+            {
+              "name": "Post Descargar repositorio",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 12
+            },
+            {
+              "name": "Complete job",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 13
+            }
+          ]
+        }
+      ]
+    },
+    "2": {
+      "jobs": [
+        {
+          "id": 124113003232,
+          "name": "validar-python",
+          "status": "completed",
+          "conclusion": "failure",
+          "run_id": 41070503334,
+          "logs_url": null,
+          "steps": [
+            {
+              "name": "Set up job",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 1
+            },
+            {
+              "name": "Descargar repositorio",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 2
+            },
+            {
+              "name": "Configurar Python",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 3
+            },
+            {
+              "name": "Instalar dependencias",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 4
+            },
+            {
+              "name": "Validar sintaxis",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 5
+            },
+            {
+              "name": "Ejecutar pruebas",
+              "status": "completed",
+              "conclusion": "failure",
+              "number": 6
+            },
+            {
+              "name": "Post Configurar Python",
+              "status": "completed",
+              "conclusion": "skipped",
+              "number": 11
+            },
+            {
+              "name": "Post Descargar repositorio",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 12
+            },
+            {
+              "name": "Complete job",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 13
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "jobs": [
+        {
+          "id": 124113409006,
+          "name": "validar-python",
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 41070618905,
+          "logs_url": null,
+          "steps": [
+            {
+              "name": "Set up job",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 1
+            },
+            {
+              "name": "Descargar repositorio",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 2
+            },
+            {
+              "name": "Configurar Python",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 3
+            },
+            {
+              "name": "Instalar dependencias",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 4
+            },
+            {
+              "name": "Validar sintaxis",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 5
+            },
+            {
+              "name": "Ejecutar pruebas",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 6
+            },
+            {
+              "name": "Post Configurar Python",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 11
+            },
+            {
+              "name": "Post Descargar repositorio",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 12
+            },
+            {
+              "name": "Complete job",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 13
+            }
+          ]
+        }
+      ]
+    },
+    "4": {
+      "jobs": [
+        {
+          "id": 124113805937,
+          "name": "validar-python",
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 41070732898,
+          "logs_url": null,
+          "steps": [
+            {
+              "name": "Set up job",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 1
+            },
+            {
+              "name": "Descargar repositorio",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 2
+            },
+            {
+              "name": "Configurar Python",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 3
+            },
+            {
+              "name": "Instalar dependencias",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 4
+            },
+            {
+              "name": "Validar sintaxis",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 5
+            },
+            {
+              "name": "Ejecutar pruebas",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 6
+            },
+            {
+              "name": "Post Configurar Python",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 11
+            },
+            {
+              "name": "Post Descargar repositorio",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 12
+            },
+            {
+              "name": "Complete job",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 13
+            }
+          ]
+        }
+      ]
+    },
+    "6": {
+      "jobs": [
+        {
+          "id": 124115255086,
+          "name": "validar-python",
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 41071129190,
+          "logs_url": null,
+          "steps": [
+            {
+              "name": "Set up job",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 1
+            },
+            {
+              "name": "Descargar repositorio",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 2
+            },
+            {
+              "name": "Configurar Python",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 3
+            },
+            {
+              "name": "Instalar dependencias",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 4
+            },
+            {
+              "name": "Validar sintaxis",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 5
+            },
+            {
+              "name": "Ejecutar pruebas",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 6
+            },
+            {
+              "name": "Post Configurar Python",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 11
+            },
+            {
+              "name": "Post Descargar repositorio",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 12
+            },
+            {
+              "name": "Complete job",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 13
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
