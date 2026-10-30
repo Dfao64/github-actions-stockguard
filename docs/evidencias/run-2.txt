@@ -1,0 +1,38 @@
+Fuente: https://github.com/Dfao64/github-actions-stockguard/actions/runs/41070503334
+Registro consultado mediante la API autenticada de GitHub.
+
+2026-10-30T14:17:11.9690116Z ============================= test session starts ==============================
+2026-10-30T14:17:11.9691353Z platform linux -- Python 3.12.15, pytest-8.3.5, pluggy-1.7.0 -- /opt/hostedtoolcache/Python/3.12.15/x64/bin/python
+2026-10-30T14:17:11.9692351Z cachedir: .pytest_cache
+2026-10-30T14:17:11.9693085Z rootdir: /home/runner/work/github-actions-stockguard/github-actions-stockguard
+2026-10-30T14:17:11.9693899Z configfile: pytest.ini
+2026-10-30T14:17:11.9694322Z testpaths: tests
+2026-10-30T14:17:11.9767590Z collecting ... collected 5 items
+2026-10-30T14:17:11.9767975Z 
+2026-10-30T14:17:11.9775909Z tests/test_inventario.py::test_stock_agotado PASSED                      [ 20%]
+2026-10-30T14:17:11.9919755Z tests/test_inventario.py::test_stock_critico FAILED                      [ 40%]
+2026-10-30T14:17:11.9926787Z tests/test_inventario.py::test_stock_bajo PASSED                         [ 60%]
+2026-10-30T14:17:11.9933632Z tests/test_inventario.py::test_stock_normal PASSED                       [ 80%]
+2026-10-30T14:17:11.9956360Z tests/test_inventario.py::test_stock_invalido PASSED                     [100%]
+2026-10-30T14:17:11.9957235Z 
+2026-10-30T14:17:11.9957510Z =================================== FAILURES ===================================
+2026-10-30T14:17:11.9958214Z ______________________________ test_stock_critico ______________________________
+2026-10-30T14:17:11.9958656Z 
+2026-10-30T14:17:11.9958802Z     def test_stock_critico():
+2026-10-30T14:17:11.9959329Z >       assert clasificar_stock(7, 20) == "NORMAL"  # fallo intencional
+2026-10-30T14:17:11.9959963Z E       AssertionError: assert 'CRITICO' == 'NORMAL'
+2026-10-30T14:17:11.9960811Z E         
+2026-10-30T14:17:11.9961105Z E         - NORMAL
+2026-10-30T14:17:11.9961425Z E         + CRITICO
+2026-10-30T14:17:11.9961607Z 
+2026-10-30T14:17:11.9961791Z tests/test_inventario.py:10: AssertionError
+2026-10-30T14:17:11.9962350Z =========================== short test summary info ============================
+2026-10-30T14:17:11.9963214Z FAILED tests/test_inventario.py::test_stock_critico - AssertionError: assert 'CRITICO' == 'NORMAL'
+2026-10-30T14:17:11.9963928Z   
+2026-10-30T14:17:11.9964186Z   - NORMAL
+2026-10-30T14:17:11.9964512Z   + CRITICO
+2026-10-30T14:17:11.9964909Z ========================= 1 failed, 4 passed in 0.03s ==========================
+2026-10-30T14:17:12.0184125Z ##[error]Process completed with exit code 1.
+2026-10-30T14:17:12.1339375Z Temporarily overriding HOME='/home/runner/work/_temp/2e1f735f-3b04-4eb2-84ba-46314decde95' before making global git config changes
+2026-10-30T14:17:12.1341164Z Adding repository directory to the temporary git global config as a safe directory
+2026-10-30T14:17:12.3534370Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/setup-python@v5. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

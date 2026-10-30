@@ -21,3 +21,6 @@ Secuencia de aprendizaje: verde, fallo intencional, correccion, mejora por PR, e
 
 ## Mejora propia
 `detectar_sobrestock(actual, maximo)` alerta si actual > maximo. El limite exacto no alerta. Incluye seis casos de prueba (tres parametrizados).
+
+## Evidencias
+Ver [docs/EVIDENCIAS.md](docs/EVIDENCIAS.md) para runs, logs y enlaces de la practica resuelta.

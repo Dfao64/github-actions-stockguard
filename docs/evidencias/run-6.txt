@@ -1,0 +1,29 @@
+Fuente: https://github.com/Dfao64/github-actions-stockguard/actions/runs/41071129190
+Registro consultado mediante la API autenticada de GitHub.
+
+2026-10-30T14:21:51.0736224Z ============================= test session starts ==============================
+2026-10-30T14:21:51.0736832Z platform linux -- Python 3.12.15, pytest-8.3.5, pluggy-1.7.0 -- /opt/hostedtoolcache/Python/3.12.15/x64/bin/python
+2026-10-30T14:21:51.0737177Z cachedir: .pytest_cache
+2026-10-30T14:21:51.0737472Z rootdir: /home/runner/work/github-actions-stockguard/github-actions-stockguard
+2026-10-30T14:21:51.0737814Z configfile: pytest.ini
+2026-10-30T14:21:51.0737988Z testpaths: tests
+2026-10-30T14:21:51.0807791Z collecting ... collected 11 items
+2026-10-30T14:21:51.0808141Z 
+2026-10-30T14:21:51.0813354Z tests/test_inventario.py::test_stock_agotado PASSED                      [  9%]
+2026-10-30T14:21:51.0817085Z tests/test_inventario.py::test_stock_critico PASSED                      [ 18%]
+2026-10-30T14:21:51.0820855Z tests/test_inventario.py::test_stock_bajo PASSED                         [ 27%]
+2026-10-30T14:21:51.0824320Z tests/test_inventario.py::test_stock_normal PASSED                       [ 36%]
+2026-10-30T14:21:51.0829316Z tests/test_inventario.py::test_stock_invalido PASSED                     [ 45%]
+2026-10-30T14:21:51.0832808Z tests/test_sobrestock.py::test_supera_maximo PASSED                      [ 54%]
+2026-10-30T14:21:51.0836186Z tests/test_sobrestock.py::test_limite_no_es_sobrestock PASSED            [ 63%]
+2026-10-30T14:21:51.0839731Z tests/test_sobrestock.py::test_stock_normal PASSED                       [ 72%]
+2026-10-30T14:21:51.0844288Z tests/test_sobrestock.py::test_datos_invalidos[-1-30] PASSED             [ 81%]
+2026-10-30T14:21:51.0848286Z tests/test_sobrestock.py::test_datos_invalidos[5-0] PASSED               [ 90%]
+2026-10-30T14:21:51.0861843Z tests/test_sobrestock.py::test_datos_invalidos[5--1] PASSED              [100%]
+2026-10-30T14:21:51.0862203Z 
+2026-10-30T14:21:51.0862362Z ============================== 11 passed in 0.01s ==============================
+2026-10-30T14:21:51.2062517Z (node:2150) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-10-30T14:21:51.2063340Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-10-30T14:21:51.3009422Z Temporarily overriding HOME='/home/runner/work/_temp/5194bc58-cd0c-4b3a-9fdf-d479c7bf0a8c' before making global git config changes
+2026-10-30T14:21:51.3010488Z Adding repository directory to the temporary git global config as a safe directory
+2026-10-30T14:21:51.4795086Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/setup-python@v5. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
