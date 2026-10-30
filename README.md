@@ -18,3 +18,6 @@ Los datos negativos y un minimo <= 0 generan ValueError.
 Workflow CI StockGuard, job validar-python, Ubuntu y Python 3.12.
 Disparadores: push a main, pull_request hacia main y workflow_dispatch.
 Secuencia de aprendizaje: verde, fallo intencional, correccion, mejora por PR, ejecucion manual.
+
+## Mejora propia
+`detectar_sobrestock(actual, maximo)` alerta si actual > maximo. El limite exacto no alerta. Incluye seis casos de prueba (tres parametrizados).
